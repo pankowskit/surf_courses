@@ -6,7 +6,7 @@ import Col from "../../node_modules/react-bootstrap/Col";
 class TripsS3 extends Component{
     render(){
         return( 
-            <Container fluid className="trips-s3 d-flex minh-25vh bg-dark align-items-center py-5">
+            <Container fluid className="trips-s3 d-flex minh-25vh bg-dark align-items-center py-5 border-top border-dark">
                 <Row className="mx-0 w-100">
                     <Col xs={10} sm={8} md={6} lg={5} className="mx-auto">
                         <div className="w-100 text-center">
