@@ -1,13 +1,29 @@
-$prefix: "../img/";
-$footer__height: 53px;
-$img__comingsoon: $prefix+"comingsoon.jpg"; 
-$img__error: $prefix+"error.jpg"; 
-$img__privacy: $prefix+"privacy.jpg"; 
+$prefix: "../../img/";
+$bg__coming-img: $prefix+"comingsoon.jpg"; 
+$bg__error-img: $prefix+"error.jpg"; 
+$bg__index-img: $prefix+"index/index-s1.jpg";
+$bg__privacy-img: $prefix+"privacy.jpg";
+$bg__shop-img: $prefix+"shop/shop-s1.jpg";
+$bg__trips-img: 
+    $prefix+"trips/trips-s1.jpg",
+    $prefix+"trips/trips-s2.jpg",
+    $prefix+"trips/trips-s3.jpg",
+    $prefix+"trips/trips-s4.jpg",
+    $prefix+"trips/trips-s5.jpg";
 $section__classes:
     "comingsoon",
     "error",
-    "privacy";
+    "index",
+    "privacy",
+    "shop",
+    "trips";
 $section__images:
-    $img__comingsoon,
-    $img__error,
-    $img__privacy;
+    $bg__coming-img,
+    $bg__error-img,
+    $bg__index-img,
+    $bg__privacy-img,
+    $bg__shop-img,
+    $bg__trips-img;
+$color__shadow: #333;
+$footer__height: 41px;
+$text-shadow: 1px 1px 3px $color__shadow; 
